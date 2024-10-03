@@ -318,3 +318,48 @@ button{
 html{
   scroll-behavior: smooth;
 }
+
+@media  (max-width:760px) {
+  .searchContainer{
+    width: 150px;
+  }
+
+  .navbar{
+    flex-wrap: wrap;
+  }
+
+  .listcontainer{
+    margin-left: 50px;
+  }
+
+  .centertext{
+    top:40%;
+    left: 30%;
+  }
+
+  #secondcontainer, #fourcontainer,#sixcontainer{
+    display: block;
+  }
+
+#imgContainer{
+  margin-top: 200px;
+  margin-bottom: 80px;
+}
+
+.centering{
+  display: none;
+}
+
+#abc{
+  margin-top: 250px;
+}
+
+.centering1{
+  top:40%;
+  left: 37%;
+}
+
+footer{
+  margin-top: 200px;
+}
+}
