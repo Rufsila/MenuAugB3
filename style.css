@@ -319,6 +319,10 @@ html{
   scroll-behavior: smooth;
 }
 
+#check, .icons{
+  display: none;
+}
+
 @media  (max-width:760px) {
   .searchContainer{
     width: 150px;
@@ -326,10 +330,6 @@ html{
 
   .navbar{
     flex-wrap: wrap;
-  }
-
-  .listcontainer{
-    margin-left: 50px;
   }
 
   .centertext{
@@ -362,4 +362,49 @@ html{
 footer{
   margin-top: 200px;
 }
+
+.icons{
+  display: flex;
+  color: white;
+  font-size: 30px;
+}
+
+.listcontainer{
+  margin-left: 20px;
+  margin-right: 50px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right:0px;
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.96);
+  text-align: center;
+}
+
+.listitems{
+  display: block;
+  margin: 13px 0px;
+}
+
+.navitem{
+  color: black;
+}
+#closeicon{
+  display: none;
+}
+
+#check:checked~.icons #menuicon{
+  display: none;
+}
+
+#check:checked~.icons #closeicon{
+  display: flex;
+}
+
+#check:checked~.listcontainer {
+  display: block;
+}
+
+
+
 }
