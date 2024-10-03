@@ -1,0 +1,320 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#main{
+  position:relative;
+  width:100%;
+  height: 100vh;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  padding: 15px 30px;
+  z-index: 100;
+}
+
+.logo{
+  width:225px;
+  height: 90px;
+}
+
+.listitems{
+  display: inline;
+  margin: 0px 13px;
+}
+
+.navitem{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+}
+
+.bgtext{
+  position: relative;
+}
+
+.centertext{
+  position: absolute;
+  top:40%;
+  left: 40%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  width:300px;
+  padding: 0px 13px 13px 13px;
+}
+
+hr{
+  color: black;
+  height: 5px;
+}
+
+.navbgimg{
+  width:100%;
+  height: 600px;
+}
+
+#secondcontainer,#fourcontainer,#sixcontainer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 40px 30px;
+  height: 280px;
+}
+
+.secondpara{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.firstimgcontainer{
+  display: flex;
+  justify-content: center;
+}
+
+.img1{
+  width:300px;
+  height: 250px;
+  margin: 15px;
+}
+
+.quote{
+  font-family: "Gowun Batang", serif;
+  font-weight: 600;
+  font-size: 23px;
+  padding-top: 0px;
+}
+
+.heading{
+  color: rgb(159, 114, 11);
+  font-size: 75px;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+}
+
+.subheading{
+  font-family: "Gowun Batang", serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: -10px;
+  padding-top: 0px;
+}
+
+.para{
+  width: 500px;
+  text-align: justify;
+}
+
+#imgContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  height: 350px;
+  padding: 10px;
+}
+
+.subimgcontainer{
+  margin: 15px;
+}
+
+.subimgcontainer1{
+  margin: 15px;
+  position: relative;
+}
+
+.centering{
+  position: absolute;
+  top:32%;
+  left: 28%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  width:225px;
+  z-index: 10;
+  padding: 0px 14px 13px 10px;
+}
+
+.img3{
+  width:100%;
+  height: 350px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.imggrid{
+  display: grid;
+  grid-template-columns: repeat(2,250px);
+  grid-template-rows: repeat(2,150px);
+  row-gap: 10px;
+  column-gap: 10px;
+  padding-left: 90px;
+  margin-top: 30px;
+}
+
+.imagesof4{
+  width: 100%;
+  height: 100%;
+}
+
+#abc{
+  padding:10px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.centering1{
+  position: absolute;
+  top:41%;
+  left: 42%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  width:225px;
+  z-index: 10;
+  padding: 0px 14px 15px 10px;
+}
+
+.mainimg{
+  width: 100%;
+  height: 650px;
+
+}
+
+#firstfooter{
+  width:100%;
+  background-color:black;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutsection{
+  width:700px;
+}
+
+.tophalf{
+  text-align: center;
+  color: white;
+}
+
+.aboutus, .lastpara{
+  font-family: "Gowun Batang", serif;
+  margin-bottom: -10px;
+}
+
+.bottomhalf{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  margin-top: 40px;
+  color: white;
+}
+
+.fands{
+  font-family: "Gowun Batang", serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.brand{
+  margin-right: 20px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.searchcontainer{
+  display: flex;
+}
+
+.search{
+  padding: 5px 15px;
+}
+
+button{
+  background-color:red;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  margin-left: 10px;
+  border: none;
+}
+
+#footerbottom{
+  background-color: rgb(70, 67, 67);
+  height: 75px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+#footerbottom pre{
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.searchBar{
+  width: 100%;
+  padding: 6.5px;
+  border: none;
+  outline: none;
+}
+
+.searchContainer{
+  display: flex;
+  width: 250px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.searchIcon{
+  background-color: #fbc92f; 
+  border: none;
+  padding: 6.5px;
+  cursor: pointer;
+}
+
+.uparrow{
+  float:right;
+  margin-top: -30px;
+}
+
+.iconScroll{
+  width:50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: top 2s;
+}
+
+.istyle{
+  color:rgb(16, 16, 16);
+  font-size: 1.25rem;
+}
+
+html{
+  scroll-behavior: smooth;
+}
